@@ -17,8 +17,6 @@ int birthdayCakeCandles(vector<int> candles) {
     
     int COUNT = 0;
     
-    sort(candles.begin(), candles.end());
-    
     int max = *max_element(candles.begin(), candles.end());
     
     COUNT = count(candles.begin(), candles.end(), max);
